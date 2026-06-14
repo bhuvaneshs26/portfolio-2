@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhuvanesh S | Portfolio</title>
+  <meta name="description" content="Frontend Developer creating modern, beautiful and responsive websites." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Share+Tech+Mono&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="bg-base"></div>
+  <div class="bg-glow"></div>
+  <canvas id="particle-canvas"></canvas>
+
+    <header id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">BHUVANESH S</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+    <section id="home" class="hero">
+    <div class="hero-inner">
+      <div class="profile-wrap">
+        <div class="profile-glow"></div>
+        <div class="profile-ring">
+          <div class="profile-inner">
+            <img src="https://leafy-macaron-1fee79.netlify.app/profile.jpeg" alt="Bhuvanesh S" />
+          </div>
+        </div>
+      </div>
+
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Bhuvanesh S</span>
+      </h1>
+
+      <div class="typing-wrap">
+        <span id="typing"></span><span class="cursor"></span>
+      </div>
+
+      <p class="hero-tagline">
+        Frontend Developer creating modern, beautiful and responsive websites with passion for great UI/UX.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="https://leafy-macaron-1fee79.netlify.app/resume.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fa-solid fa-download"></i>
+          <span>Download Resume</span>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <span>Hire Me</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="social-row">
+        <a href="https://www.instagram.com/bhuvi._.26____/" target="_blank" rel="noopener" class="social" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100094548648590" target="_blank" rel="noopener" class="social" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://x.com/Bhuvaneshs26" target="_blank" rel="noopener" class="social" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/bhuvanesh-s-a13771380/" target="_blank" rel="noopener" class="social" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/bhuvaneshs26" target="_blank" rel="noopener" class="social" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+    <section id="about" class="section">
+    <div class="container card-shell">
+      <div class="blob blob-pink"></div>
+      <div class="blob blob-cyan"></div>
+      <span class="section-tag">About</span>
+      <h2 class="section-title">Who Am I?</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am a passionate <span class="gradient-text bold">Frontend Developer</span> who enjoys building attractive websites with modern UI/UX. My goal is to become a Software Engineer and create impactful digital experiences that make a difference.</p>
+          <p>I believe great design meets great code &mdash; every pixel matters and every interaction counts. Currently leveling up my skills in <span class="gradient-text bold">React</span> and modern web technologies.</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-value">4+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">6+</div>
+            <div class="stat-label">Skills</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Passion</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="skills" class="section">
+    <div class="container text-center">
+      <span class="section-tag">Skills</span>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill" data-color="#E34F26">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+          <div class="skill-name">HTML5</div>
+        </div>
+        <div class="skill" data-color="#1572B6">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+          <div class="skill-name">CSS3</div>
+        </div>
+        <div class="skill" data-color="#F7DF1E">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+          <div class="skill-name">JavaScript</div>
+        </div>
+        <div class="skill" data-color="#61DAFB">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React JS" />
+          <div class="skill-name">React JS</div>
+        </div>
+        <div class="skill" data-color="#F1F1F1">
+          <img class="invert" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Git & GitHub" />
+          <div class="skill-name">Git &amp; GitHub</div>
+        </div>
+        <div class="skill" data-color="#3776AB">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+          <div class="skill-name">Python</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section id="projects" class="section">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-tag">Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project">
+          <div class="project-emoji">🛒</div>
+          <h3 class="project-title">Mobile Shopping App</h3>
+          <p class="project-desc">A responsive mobile e-commerce platform designed for seamless product browsing and shopping.</p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+          <a href="https://mobile-shopping-nu.vercel.app/" target="_blank" rel="noopener" class="project-link">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+        <article class="project">
+          <div class="project-emoji">🔐</div>
+          <h3 class="project-title">Login State Management</h3>
+          <p class="project-desc">A secure authentication flow handling user login logic and state management efficiently.</p>
+          <div class="tags">
+            <span class="tag">JavaScript</span><span class="tag">Logic</span>
+          </div>
+          <a href="https://java-script-logic-state-management-hazel.vercel.app/" target="_blank" rel="noopener" class="project-link">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+                <article class="project">
+          <div class="project-emoji">⛅</div>
+          <h3 class="project-title">Weather Dashboard</h3>
+          <p class="project-desc">A dynamic weather dashboard application providing real-time forecasts and climate data.</p>
+          <div class="tags">
+            <span class="tag">JavaScript</span><span class="tag">API</span><span class="tag">CSS</span>
+          </div>
+          <a href="https://weather-dashboard-lemon-three.vercel.app/" target="_blank" rel="noopener" class="project-link">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+        <article class="project">
+          <div class="project-emoji">🌐</div>
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-desc">Creative personal portfolio with animated backgrounds and smooth transitions.</p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+          </div>
+          <a href="https://portfolio-2-mu6t.vercel.app/" target="_blank" rel="noopener" class="project-link">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+    <section id="contact" class="section">
+    <div class="container card-shell">
+      <div class="blob blob-pink"></div>
+      <div class="blob blob-cyan"></div>
+
+      <div class="text-center">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-sub">Have a project in mind? Let's build something amazing together.</p>
+      </div>
+
+      <div class="contact-info">
+        <a href="mailto:bhuvanesh2604.s@gmail.com" class="info-card">
+          <div class="info-icon cyan"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <div class="info-label">Email</div>
+            <div class="info-value">bhuvanesh2604.s@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+919344479803" class="info-card">
+          <div class="info-icon pink"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <div class="info-label">Phone</div>
+            <div class="info-value">+91 93444 79803</div>
+          </div>
+        </a>
+      </div>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Send Message</span>
+        </button>
+      </form>
+
+      <div class="footer">
+        <div class="copyright">© <span id="year"></span> Bhuvanesh S. Crafted with passion.</div>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/bhuvi._.26____/" target="_blank" rel="noopener" class="social sm" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100094548648590" target="_blank" rel="noopener" class="social sm" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://x.com/Bhuvaneshs26" target="_blank" rel="noopener" class="social sm" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/bhuvanesh-s-a13771380/" target="_blank" rel="noopener" class="social sm" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/bhuvaneshs26" target="_blank" rel="noopener" class="social sm" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+      </div>
+    </div>
+  </section>
+
+    <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
